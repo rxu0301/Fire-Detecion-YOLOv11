@@ -1,0 +1,98 @@
+# Model weights
+*.pt
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.venv
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# Logs
+pip-log.txt
+pip-delete-this-directory.txt
+pip-freeze.txt
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+.settings/
+*.sublime-project
+*.sublime-workspace
+
+# OS
+.DS_Store
+Thumbs.db
+.AppleDouble
+.LSOverride
+.directory
+
+# 대용량 데이터
+*.zip
+*.tar.gz
+*.tar
+*.rar
+data/
+datasets/
+raw_data/
+*.tar.bz2
+
+# 실험 결과 (필요시 주석 제거)
+# results/
+# runs/
+# logs/
+
+# Cache files
+.cache/
+*.cache
+.pylint.d/
+
+# Type checking
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# 기타
+.env
+.env.local
+*.config
+config.local.json
+secrets.json
